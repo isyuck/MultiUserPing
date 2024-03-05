@@ -1,0 +1,29 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "MultiUserPing",
+	"Description": "Message other clients in a multi-user session",
+	"Category": "Other",
+	"CreatedBy": "Isaac Ward",
+	"CreatedByURL": "https://isaac.ac",
+	"CanContainContent": false,
+	"EngineVersion": "5.3",
+	"Modules": [
+		{
+			"Name": "MultiUserPing",
+			"Type": "UncookedOnly",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "MultiUserClient",
+			"Enabled": true
+		},
+		{
+			"Name": "ConcertSyncClient",
+			"Enabled": true
+		}
+	]
+}
